@@ -71,7 +71,7 @@ Before submitting to the marketplace, run through the checklist yourself:
 
 ```bash
 # Clone this repo
-git clone https://github.com/gagankcai-jpg/agent-skill-exchange.git
+git clone https://github.com/agentskillexchange/agent-skill-exchange.git
 cd agent-skill-exchange
 
 # Review your skill against the checklist
