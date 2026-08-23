@@ -126,5 +126,6 @@ else
   echo "❌ Scan complete — $ISSUES issue(s) found"
   echo "Review next: address FAIL findings first, resolve WARN sections, and verify INFO URLs are intentional."
   echo "Record the line-number evidence above in the review note; do not mark Security Reviewed until FAIL findings are fixed or explicitly justified."
+  echo "Evidence packet next: copy command/result, FAIL/WARN/INFO line evidence, source-backed claim checks, risky-flow status, and follow-up needed into the reviewer evidence packet."
   exit 1
 fi
