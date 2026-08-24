@@ -30,6 +30,7 @@ When a material change keeps a skill at **Security Reviewed**, record evidence t
 - Changed files or PR diff reviewed.
 - Scanner command and result from the changed version.
 - Manual checks repeated for any changed tool, API, browser, file, email, messaging, network, authentication, data-flow, prompt-injection, or destructive-action behavior.
+- Source-backed checks refreshed for any changed API, model, package, platform, permission, or security-control claim that affects the label decision.
 - Risky-flow test repeated in a sandbox or non-production context when the changed behavior can affect external systems, private data, money, publishing, deployment, deletion, or account state.
 - Decision note explaining why the prior label still applies, or why the skill is downgraded to **Published** until evidence is complete.
 
