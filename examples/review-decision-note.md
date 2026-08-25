@@ -83,18 +83,19 @@ Version reviewed: [new commit]
 Prior reviewed version: [old commit]
 Scanner result: `[command]` -> [exit code and summary]
 Manual checks: changed permissions, data flow, external services, and destructive actions reviewed
+Source-backed claim recheck: [no changed claims / claim types checked and sources used / unsupported parts]
 Risky flow test: [result or "not run: reason"]
 Evidence packet: [link, if available]
 
 Decision:
 The diff does not weaken the assumptions recorded in the prior review evidence,
-and the new scanner/manual checks did not find new unresolved risk. Keep
-Security Reviewed.
+changed claims are still backed by reviewable sources, and the new
+scanner/manual checks did not find new unresolved risk. Keep Security Reviewed.
 
 Required follow-up:
 - Recheck again before keeping Security Reviewed if a future diff changes tool
   access, external services, authentication, data flow, prompt-injection
-  handling, or destructive actions.
+  handling, source-backed claims, or destructive actions.
 ```
 
 If scanner results, manual checks, or risky-flow evidence are incomplete, use
