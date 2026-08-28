@@ -79,6 +79,8 @@ cat verification/checklist.md
 
 The scanner is a first pass only. A clean scan does not guarantee that a skill is safe; it helps reviewers catch obvious issues before deeper review. Exit code `0` means no issues were found, `1` means warnings or failures need review, and `2` means the command was missing or could not read the target file.
 
+Before opening a catalog PR, copy the scanner command/result and any source-backed claim checks into the self-review section of [`submission/SKILL_TEMPLATE.md`](submission/SKILL_TEMPLATE.md) so reviewers do not have to reconstruct the evidence.
+
 Reviewers can start with the 10-minute [`Reviewer Quickstart`](security/reviewer-quickstart.md), compare against the [`Review Patterns`](examples/review-patterns.md), then use the full [`Security Review Guide`](security/review-guide.md), [`Verification Checklist`](verification/checklist.md), and [`Trust Label Lifecycle`](security/trust-label-lifecycle.md) for final decisions.
 
 ## Find the Right Review Path
