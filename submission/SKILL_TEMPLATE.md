@@ -54,6 +54,7 @@ Before submitting this skill for Agent Skill Exchange review, complete the check
 - [ ] `security/tools/scan.sh` was run against this `SKILL.md`, and any warnings are either fixed or documented for reviewer follow-up.
 
 Requested review outcome: [Published only / Security Reviewed / unsure]
+Use **Published only** when the skill is ready for catalog listing but security evidence is incomplete, **Security Reviewed** only when the scanner/manual/source-backed evidence below is complete, and **unsure** when you need a reviewer to classify the risk first.
 Evidence for Security Reviewed, if requested: [scanner result, manual review notes, fixture output, or other evidence]
 
 Reviewer evidence packet:
