@@ -43,6 +43,12 @@ When API/model, package/helper-script, permission/data-access, or security-contr
 
 ## 4. Pick the Review Outcome
 
+If the submission requested `unsure`, treat that as an intake signal, not a
+review outcome: run the scanner and highest-risk questions above, then record
+which evidence is present or missing in the
+[`Reviewer Evidence Packet`](../examples/reviewer-evidence-packet.md) format
+before choosing one of the outcomes below.
+
 Use one outcome and write a short reason:
 
 | Outcome | Use when |
