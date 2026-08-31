@@ -15,6 +15,7 @@ Review outcome: [Needs changes / Published only / Security Reviewed]
 
 Skill reviewed: [path or PR link]
 Version reviewed: [commit, tag, or PR SHA]
+Requested outcome: [Published only / Security Reviewed / unsure]
 Scanner result: `[command]` -> [exit code and summary]
 Manual checks: [prompt injection, data handling, permissions, side effects, destructive actions]
 Risky flow test: [sandbox result, non-production result, or "not run: reason"]
