@@ -18,6 +18,7 @@ Version reviewed: [commit, tag, or PR SHA]
 Requested outcome: [Published only / Security Reviewed / unsure]
 Scanner result: `[command]` -> [exit code and summary]
 Manual checks: [prompt injection, data handling, permissions, side effects, destructive actions]
+Source-backed claims: [claim types checked and sources used / none claimed / unsupported parts]
 Risky flow test: [sandbox result, non-production result, or "not run: reason"]
 Evidence packet: [link, if available]
 
@@ -37,6 +38,7 @@ Skill reviewed: examples/scanner-fixtures/safe-minimal-skill.md
 Version reviewed: 9108ef9
 Scanner result: `security/tools/scan.sh examples/scanner-fixtures/safe-minimal-skill.md` -> exit 0, no issues found
 Manual checks: prompt injection, data handling, permissions, side effects, and destructive actions reviewed
+Source-backed claims: none claimed beyond local fixture behavior
 Risky flow test: not run; the fixture has no live service calls, destructive actions, or credential handling
 Evidence packet: examples/reviewer-evidence-packet.md#passing-packet
 
@@ -58,6 +60,7 @@ Skill reviewed: examples/scanner-fixtures/risky-skill.md
 Version reviewed: 9108ef9
 Scanner result: `security/tools/scan.sh examples/scanner-fixtures/risky-skill.md` -> exit 1, 7 issue(s) found
 Manual checks: prompt injection, data handling, permissions, external setup, and destructive actions reviewed
+Source-backed claims: unsupported setup and external-source claims recorded in the evidence packet
 Risky flow test: not run; live execution is not approved for this intentionally risky fixture
 Evidence packet: examples/reviewer-evidence-packet.md#blocking-packet
 
@@ -112,6 +115,7 @@ Version reviewed: [new commit]
 Prior review outcome: Needs changes
 Scanner result: `[command]` -> [exit code and summary]
 Manual checks: source-backed API/model/package/platform claims, permissions, data flow, and security controls reviewed
+Source-backed claims: [corrected claim and authoritative source checked]
 Risky flow test: [result or "not run: reason"]
 Evidence packet: [link, if available]
 
