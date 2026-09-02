@@ -63,6 +63,7 @@ Version or PR:
 Scanner command:
 Scanner result:
 Manual checks:
+Source-backed claim recheck:
 Risky-flow test:
 Decision:
 Follow-up:
