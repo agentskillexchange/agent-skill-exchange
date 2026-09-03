@@ -68,4 +68,6 @@ Include enough evidence for another reviewer to reproduce the decision:
 - Any sandbox test performed for risky flows.
 - Final outcome and required follow-up.
 
+Use the [`Reviewer Evidence Packet`](../examples/reviewer-evidence-packet.md) as the copyable record, then summarize its outcome, scanner result, manual checks, and follow-up in a short [`Review Decision Note`](../examples/review-decision-note.md).
+
 For the full criteria, continue with the [verification checklist](../verification/checklist.md) and [security review guide](review-guide.md).
