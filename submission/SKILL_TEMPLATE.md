@@ -57,7 +57,9 @@ Requested review outcome: [Published only / Security Reviewed / unsure]
 Use **Published only** when the skill is ready for catalog listing but security evidence is incomplete, **Security Reviewed** only when the scanner/manual/source-backed evidence below is complete, and **unsure** when you need a reviewer to classify the risk first.
 Evidence for Security Reviewed, if requested: [scanner result, manual review notes, fixture output, or other evidence]
 
-Reviewer evidence packet:
+Author-provided evidence packet:
+
+Fill this in before review; reviewers can copy the completed evidence into a review record or decision note instead of reconstructing it.
 
 - Scanner command and result: [`security/tools/scan.sh path/to/SKILL.md`, exit code, unresolved findings]
 - Source-backed claims checked: [API/model/package/platform/permission/security-control claims, source checked, and unsupported parts, or "none"]
