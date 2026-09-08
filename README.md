@@ -52,7 +52,11 @@ Older internal terms such as `listed` or `verified_metadata` should be mapped to
 │
 ├── examples/
 │   ├── review-patterns.md    # Safe and risky SKILL.md review patterns
-│   └── risky-patterns.md     # Risky pattern decisions and safeguards
+│   ├── risky-patterns.md     # Risky pattern decisions and safeguards
+│   ├── reviewer-evidence-packet.md # Copyable passing/blocking evidence packets
+│   ├── review-decision-note.md # Concise PR or issue decision note examples
+│   ├── source-backed-verification.md # Checks for API, package, and platform claims
+│   └── scanner-fixtures/     # Safe and intentionally risky scanner targets
 │
 ├── standards/
 │   ├── skill-spec.md         # AgentSkill specification
