@@ -59,6 +59,8 @@ Security review depends on evidence that a reviewer can check without inferring 
 
 These requirements align the skill spec with the repository's scanner checks, human review guide, and trust-label lifecycle. They also map to common secure-development and LLM-risk guidance, especially OWASP LLM risks for prompt injection, sensitive information disclosure, supply chain, insecure plugin design, and excessive agency, plus NIST SSDF practices for tracking security requirements, risks, design decisions, and provenance.
 
+When a skill is submitted for catalog review, carry these boundaries into the submission self-review in [`submission/SKILL_TEMPLATE.md`](../submission/SKILL_TEMPLATE.md): scanner command/result, source-backed claims checked, manual checks completed, risky-flow evidence where applicable, and any follow-up needed. That keeps the specification, author template, and reviewer evidence packet aligned around the same review record.
+
 References:
 
 - [OWASP Top 10 for Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
