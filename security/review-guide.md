@@ -26,7 +26,11 @@ Skill submissions and catalog updates belong in [`agentskillexchange/skills`](ht
 3. Check the Security Reviewed section in [`../verification/checklist.md`](../verification/checklist.md).
 4. Identify all external services, tools, file access, and user-visible side effects.
 5. Test risky flows in a sandbox or non-production context when practical.
-6. Document findings in the catalog PR, review record, or issue.
+6. Document findings in the catalog PR, review record, or issue. Use the
+   [`Review Decision Note`](../examples/review-decision-note.md) format when
+   the reviewer needs a short, reusable record of the requested outcome,
+   scanner result, manual checks, source-backed claims, risky-flow evidence,
+   and required follow-up.
 7. Approve the **Security Reviewed** label only when risks are understood, disclosed, and appropriately controlled.
 
 ## Common Red Flags
